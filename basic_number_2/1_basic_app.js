@@ -178,3 +178,10 @@
 // console.log(num3);
 
 //новый текст
+//! GIT инициализация
+/*
+1. git init
+2. git add .\basic_number_1\ .\basic_number_2\ .\index.html README.md
+3. git commit -m "release v1"
+4. git push -u origin master
+*/
