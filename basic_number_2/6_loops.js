@@ -145,8 +145,8 @@ for in - цикл по ИНДЕКСУ массива / итерация по и�
 
 //! Урок 56. Упражнение - Расчёт итогового баланса
 
-const operations = [1000, -1700, 300, -500, 10000];
-const startedBalance = 100;
+// const operations = [1000, -1700, 300, -500, 10000];
+// const startedBalance = 100;
 
 //* функция для подсчёта итогового баланса
 
@@ -179,38 +179,38 @@ const startedBalance = 100;
 
 //* функция среднего дохода и среднего расхода
 
-function average(startedBalance, operations) {
-    let averageIncome = [];
-    let averageOutcome = [];
+// function average(startedBalance, operations) {
+//     let averageIncome = [];
+//     let averageOutcome = [];
 
-    for (let el of operations) {
-        if (el >= 0) {
-            averageIncome.push(el);
-        } else {
-            averageOutcome.push(el);
-        }
-    }
+//     for (let el of operations) {
+//         if (el >= 0) {
+//             averageIncome.push(el);
+//         } else {
+//             averageOutcome.push(el);
+//         }
+//     }
 
-    let countOnAverageIncome = averageIncome.length + 1;
-    let averageIncome2 = startedBalance;
-    for (let el of averageIncome) {
-        if (el >= 0) {
-            averageIncome2 += el;
-        }
-    }
-    console.log(`Средний доход равен ${averageIncome2 / countOnAverageIncome}`);
+//     let countOnAverageIncome = averageIncome.length + 1;
+//     let averageIncome2 = startedBalance;
+//     for (let el of averageIncome) {
+//         if (el >= 0) {
+//             averageIncome2 += el;
+//         }
+//     }
+//     console.log(`Средний доход равен ${averageIncome2 / countOnAverageIncome}`);
 
-    let countOnAverageOutcome = averageOutcome.length;
-    let averageOutcome2 = 0;
-    for (let el of averageOutcome) {
-        if (el < 0) {
-            averageOutcome2 -= el;
-        }
-    }
-    console.log(`Средний расход равен -${averageOutcome2 / countOnAverageOutcome}`);
-}
+//     let countOnAverageOutcome = averageOutcome.length;
+//     let averageOutcome2 = 0;
+//     for (let el of averageOutcome) {
+//         if (el < 0) {
+//             averageOutcome2 -= el;
+//         }
+//     }
+//     console.log(`Средний расход равен -${averageOutcome2 / countOnAverageOutcome}`);
+// }
 
-console.log(average(startedBalance, operations));
+// console.log(average(startedBalance, operations));
 
 //!----------------------------------------------------------------------------------------
 
